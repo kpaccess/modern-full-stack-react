@@ -1,0 +1,24 @@
+
+###Send Request
+GET http://localhost:3001/api/v1/posts
+
+### POST Request
+POST http://localhost:3001/api/v1/posts
+content-type: application/json
+
+
+{
+    "title": "Test Post1"
+}
+
+### PATCH REQUEST
+PATCH http://localhost:3001/api/v1/posts/67635d04328e99b011e0fa91
+Content-Type: application/json
+
+{
+    "title": "Test Post Changed"
+}
+
+### DELETE REQUEST
+DELETE http://localhost:3001/api/v1/posts/67635d04328e99b011e0fa91
+Content-Type: application/json
